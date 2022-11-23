@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Assignment.Marks&apos; to &apos;MarksToGrade&apos;&#x0D;&#x0A;- Original project: &apos;Database&apos;&#x0D;&#x0A;- Original element: &apos;Assignment.Marks&apos;&#x0D;&#x0A;- Renamed element: &apos;Assignment.MarksToGrade&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Marks&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Assignment{Marks.java[Marks" matchStrategy="1" name="MarksToGrade" qualified="false" references="true" similarDeclarations="false" stamp="1547269233165" textual="false" version="1.0"/>
+</session>

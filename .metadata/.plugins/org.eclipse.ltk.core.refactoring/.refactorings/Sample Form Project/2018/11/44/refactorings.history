@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Database.java&apos; to &apos;Banana/src/DAO&apos;&#x0D;&#x0A;- Original project: &apos;Sample Form Project&apos;&#x0D;&#x0A;- Destination element: &apos;Banana/src/DAO&apos;&#x0D;&#x0A;- Original element: &apos;database.Database.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=Banana/src&lt;DAO" element1="/src&lt;database{Database.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1541173971183" units="1" version="1.0"/>
+</session>

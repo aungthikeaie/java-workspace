@@ -1,0 +1,4 @@
+127.0.0.1 - - [28/Jan/2019:23:34:01 +0630] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [28/Jan/2019:23:34:02 +0630] "GET /FirstTesting/Assignment1 HTTP/1.1" 200 466
+0:0:0:0:0:0:0:1 - - [28/Jan/2019:23:51:20 +0630] "GET /FirstTesting/Assignment1 HTTP/1.1" 200 466
+0:0:0:0:0:0:0:1 - - [28/Jan/2019:23:51:51 +0630] "GET /FirstTesting/Assignment1 HTTP/1.1" 200 466

@@ -1,0 +1,6 @@
+127.0.0.1 - - [17/Mar/2019:10:05:47 +0630] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [17/Mar/2019:10:05:48 +0630] "GET /Understand/PrimeNumbers.html HTTP/1.1" 200 539
+0:0:0:0:0:0:0:1 - - [17/Mar/2019:10:05:50 +0630] "GET /Understand/primeNumberServlet?numPrimes=25&numDigits=150 HTTP/1.1" 200 211
+0:0:0:0:0:0:0:1 - - [17/Mar/2019:10:05:55 +0630] "GET /Understand/primeNumberServlet?numPrimes=25&numDigits=150 HTTP/1.1" 200 4084
+0:0:0:0:0:0:0:1 - - [17/Mar/2019:10:29:40 +0630] "GET /Understand/ShadowedText.html HTTP/1.1" 200 1315
+0:0:0:0:0:0:0:1 - - [17/Mar/2019:10:29:53 +0630] "GET /Understand/shadowText?message=Hello%21&fontName=Serif&fontSize=90 HTTP/1.1" 200 12482

@@ -1,0 +1,5 @@
+127.0.0.1 - - [22/Jan/2019:11:46:18 +0630] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:11:46:20 +0630] "GET /FirstTesting/ThreeParamsForm.html HTTP/1.1" 200 514
+127.0.0.1 - - [22/Jan/2019:21:24:45 +0630] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:21:24:47 +0630] "GET /FirstTesting/ThreeParamsForm.html HTTP/1.1" 200 514
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:21:25:40 +0630] "GET /FirstTesting/servlet1 HTTP/1.1" 200 21

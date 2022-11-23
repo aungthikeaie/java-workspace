@@ -1,0 +1,8 @@
+127.0.0.1 - - [08/Feb/2019:09:24:38 +0630] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [08/Feb/2019:09:24:40 +0630] "GET /FirstTesting/Resume.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Feb/2019:09:24:40 +0630] "GET /FirstTesting/jobs-site-styles.scc HTTP/1.1" 404 1017
+0:0:0:0:0:0:0:1 - - [08/Feb/2019:09:24:45 +0630] "POST /FirstTesting/SubmitResume HTTP/1.1" 200 292
+0:0:0:0:0:0:0:1 - - [08/Feb/2019:09:24:59 +0630] "GET /FirstTesting/jobs-site-styles.scc HTTP/1.1" 404 1017
+0:0:0:0:0:0:0:1 - - [08/Feb/2019:09:25:01 +0630] "POST /FirstTesting/SubmitResume HTTP/1.1" 200 292
+0:0:0:0:0:0:0:1 - - [08/Feb/2019:09:25:18 +0630] "GET /FirstTesting/jobs-site-styles.scc HTTP/1.1" 404 1017
+0:0:0:0:0:0:0:1 - - [08/Feb/2019:09:25:20 +0630] "POST /FirstTesting/SubmitResume HTTP/1.1" 200 292

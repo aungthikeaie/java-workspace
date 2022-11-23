@@ -1,0 +1,3 @@
+127.0.0.1 - - [28/Aug/2019:22:46:21 +0630] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [28/Aug/2019:22:46:22 +0630] "GET /Phyu_Sin_Thant/login_jquery.jsp HTTP/1.1" 200 466
+0:0:0:0:0:0:0:1 - - [28/Aug/2019:22:46:29 +0630] "GET /Phyu_Sin_Thant/view.jsp?username=gjsjo&psw=jfjowe HTTP/1.1" 200 313

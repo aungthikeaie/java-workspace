@@ -1,0 +1,35 @@
+package FirstProgram;
+
+import java.awt.*;
+import java.awt.event.*;
+
+import javax.swing.*;
+
+public class TableTesting extends JFrame implements ActionListener
+{
+	JButton b1 = new JButton();
+	
+	JPanel p = new JPanel();
+	
+	Container c = getContentPane();
+	
+	public TableTesting()
+	{
+		setTitle("Testing Database");
+		setSize(400,400);
+		
+		p.add(b1);
+		c.add("North",p);
+		
+		setVisible(true);
+	}
+	public static void main(String[] args) 
+	{
+		new TableTesting();
+	}
+
+	public void actionPerformed(ActionEvent e) 
+	{
+		
+	}
+}

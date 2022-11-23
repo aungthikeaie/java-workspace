@@ -1,0 +1,78 @@
+package DataAccess;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import javax.swing.JOptionPane;
+
+import Form.Export;
+import Form.Import;
+import Form.MainFrame;
+
+public class ExportDAO 
+{
+	public static Connection cnn;
+	public static Statement sta;
+	public static ResultSet res;
+	public static String url = "jdbc:mysql://localhost/storetest?user=root&password=root";
+	
+	public static int idofselectedItem() throws SQLException
+	{
+		cnn = DriverManager.getConnection(url);
+		
+		String itemIdQuery = "select * from item where item_name = '"+ MainFrame.itemcombobox.getSelectedItem() +"'";
+		
+		sta = cnn.createStatement();
+		res = sta.executeQuery(itemIdQuery);
+		res.next();
+		int i = res.getInt(1);
+		
+		return i;
+	}
+	public static int idofselectedPeriod() throws SQLException
+	{
+		cnn = DriverManager.getConnection(url);
+		
+		String periodIdQuery = "select * from period where description= '"+ MainFrame.periodcombobox.getSelectedItem() +"'";
+		
+		sta = cnn.createStatement();
+		res = sta.executeQuery(periodIdQuery);
+		res.next();
+		int i = res.getInt(1);
+		return i;
+	}
+	
+	public static void confirmExportFunction() throws SQLException
+	{
+		cnn = DriverManager.getConnection(url);
+		
+		String confirmQuery = "insert into ledger(transaction_date,source,iinvoice_no,iinvoice_date,count,unit_price,total_cost,used,stock_in_hand,sign,remark,item_code,period_id) values('"
+				+DateFunction.dateReturn(Export.etranscation_date_chooser.getDate().toString())+"','"
+				+Export.receiver_textfield.getText()+"',"
+				+Export.invoicenumbertextfield.getText()+",'"
+				+DateFunction.dateReturn(Export.invoice_date_chooser.getDate().toString())+"',0,0,0.0,"//count,unit_price,total_cost
+				+Export.exportcounttextfield.getText()+","
+				+StockInHandFunctionExport.sumFunction()+",'"
+				+Export.signtextfield.getText()+"','"
+				+Export.optiontextarea.getText()+"',"
+				+idofselectedItem()+","
+				+idofselectedPeriod()+")";
+		
+		System.out.println(confirmQuery);
+
+		sta=cnn.createStatement();
+		int r=sta.executeUpdate(confirmQuery);
+		if(r>=1)
+		{
+			JOptionPane.showMessageDialog(null, "Insertion Successful");
+		}
+		else
+		{
+			JOptionPane.showMessageDialog(null, "Insertion Falied");
+		}
+		cnn.close();
+	}
+}

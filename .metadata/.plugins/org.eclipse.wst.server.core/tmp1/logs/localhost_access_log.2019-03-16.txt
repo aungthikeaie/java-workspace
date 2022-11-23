@@ -1,0 +1,4 @@
+127.0.0.1 - - [16/Mar/2019:09:14:28 +0630] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [16/Mar/2019:09:14:29 +0630] "GET /Understand/PrimeNumbers.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Mar/2019:09:14:31 +0630] "GET /Understand/primeNumberServlet?numPrimes=25&numDigits=150 HTTP/1.1" 200 211
+0:0:0:0:0:0:0:1 - - [16/Mar/2019:09:14:36 +0630] "GET /Understand/primeNumberServlet?numPrimes=25&numDigits=150 HTTP/1.1" 200 4084

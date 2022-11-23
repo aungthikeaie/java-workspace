@@ -1,0 +1,7 @@
+INDEX VERSION 1.127
+D:\Java Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\938928427.index
+\StrutEg\src
+D:\Java Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3592520264.index
+\strutEg1\src
+D:\Java Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1237745864.index
+\Group3\src

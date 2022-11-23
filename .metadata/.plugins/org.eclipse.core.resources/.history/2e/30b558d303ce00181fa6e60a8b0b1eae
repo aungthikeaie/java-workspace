@@ -1,0 +1,91 @@
+package Session9;
+
+import java.awt.Container;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.event.*;
+
+import javax.swing.*;
+
+public class Test extends JFrame implements ActionListener
+{
+	JButton b1 = new JButton();
+	JButton b2 = new JButton();
+	JButton b3 = new JButton();
+	
+	JLabel l1 = new JLabel();
+	JLabel l2 = new JLabel();
+	JLabel l3 = new JLabel();
+	
+	JTextField t1 = new JTextField(10);
+	JTextField t2 = new JTextField(10);
+	JTextField t3 = new JTextField(10);
+	
+	Container c = getContentPane();
+	
+	public Test()
+	{
+		setTitle("Test Programe");
+		//setSize(400,300);
+		
+		c.setLayout(new GridBagLayout());
+		GridBagConstraints gb = new GridBagConstraints();
+		
+		b1.setText("Start Timing");
+		gb.gridx = 0;
+		gb.gridy = 0;
+		c.add(b1,gb);
+		
+		b2.setText("Stop Timing");
+		gb.gridx = 0;
+		gb.gridy = 1;
+		c.add(b2,gb);
+		
+		b3.setText("Exit");
+		gb.gridx = 0;
+		gb.gridy = 2;
+		c.add(b3,gb);
+		
+		l1.setText("Start Time");
+		gb.gridx = 1;
+		gb.gridy = 0;
+		c.add(l1,gb);
+		
+		l2.setText("Stop Time");
+		gb.gridx = 1;
+		gb.gridy = 1;
+		c.add(l2,gb);
+		
+		l3.setText("Elapsed Time(sec)");
+		gb.gridx = 1;
+		gb.gridy = 2;
+		c.add(l3,gb);
+		
+		t1.setColumns(15);
+		gb.gridx = 2;
+		gb.gridy = 0;
+		c.add(t1,gb);
+		
+		t2.setColumns(20);
+		gb.gridx = 2;
+		gb.gridy = 1;
+		c.add(t2,gb);
+		
+		//t3.setColumns();
+		gb.gridx = 2;
+		gb.gridy = 2;
+		c.add(t3,gb);
+		
+		pack();
+		setVisible(true);
+	}
+	public static void main(String args[])
+	{
+		new Test();
+	}
+	public void actionPerformed(ActionEvent e) 
+	{
+
+	}
+
+}

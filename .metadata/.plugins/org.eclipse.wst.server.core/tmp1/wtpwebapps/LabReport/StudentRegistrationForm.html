@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<Form Action="StudentReg" method="post">
+		<H1> Student's Registration Form</H1>
+		
+		Student Name:<INPUT type="text" name="studentName"><BR>
+		
+		Student Roll No:<INPUT type="text" name="rollno"><BR>
+		
+		Major :<select name="major">
+					<option value="CEIT">CEIT</option>
+					<option value="EC">EC</option>
+					<option vaue="Civil">Civil</option>
+				</select><BR>
+		Year :<INPUT type="text" name="year"><BR>
+		Father Name :<INPUT type="text" name="fathername"><BR>
+		NRC No :<INPUT type="text" name="nrc"><BR>
+		Address :<INPUT type="text" name="address"><BR>
+		Gender :<INPUT type="radio" name="gender">Male
+				<INPUT type="radio" name="gender">Female<BR>
+		Birthday :<INPUT type="text" name="birth"><BR>
+		English Proficiency Skill :<INPUT type="radio" name="skill">Basic
+									<INPUT type="radio" name="skill">Intermediate		
+									<INPUT type="radio" name="skill"> Advanced<BR>
+	Others :<BR><textarea name="other" rows=10 columns=50></textarea>
+		<center>
+			<input type="submit" name="preview" value="Preview">
+			<input type="submit" name="register" value="Register">
+			</center>
+	</Form>
+</body>
+</html>

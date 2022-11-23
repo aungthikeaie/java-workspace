@@ -1,0 +1,10 @@
+127.0.0.1 - - [13/Feb/2019:23:45:20 +0630] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:23:45:20 +0630] "GET /LabReport/StudentRegistrationForm.html HTTP/1.1" 200 1398
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:23:45:38 +0630] "POST /LabReport/StudentReg HTTP/1.1" 200 767
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:23:46:19 +0630] "GET /LabReport/student.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:23:46:27 +0630] "POST /LabReport/Student HTTP/1.1" 200 151
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:23:46:30 +0630] "POST /LabReport/Student HTTP/1.1" 200 791
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:23:52:31 +0630] "POST /LabReport/Student HTTP/1.1" 200 791
+127.0.0.1 - - [13/Feb/2019:23:53:49 +0630] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:23:53:52 +0630] "POST /LabReport/Student HTTP/1.1" 200 791
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:23:54:22 +0630] "POST /LabReport/Student HTTP/1.1" 200 779

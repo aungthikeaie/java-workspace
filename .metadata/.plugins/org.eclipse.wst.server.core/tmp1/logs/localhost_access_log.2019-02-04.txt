@@ -1,0 +1,8 @@
+127.0.0.1 - - [04/Feb/2019:09:26:09 +0630] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [04/Feb/2019:09:26:11 +0630] "GET /FirstTesting/Resume.html HTTP/1.1" 304 -
+127.0.0.1 - - [04/Feb/2019:09:27:57 +0630] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [04/Feb/2019:09:28:00 +0630] "POST /FirstTesting/submitResume HTTP/1.1" 404 1001
+0:0:0:0:0:0:0:1 - - [04/Feb/2019:09:28:05 +0630] "POST /FirstTesting/submitResume HTTP/1.1" 404 1001
+0:0:0:0:0:0:0:1 - - [04/Feb/2019:09:29:17 +0630] "POST /FirstTesting/submitResume HTTP/1.1" 404 1001
+127.0.0.1 - - [04/Feb/2019:09:30:40 +0630] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [04/Feb/2019:09:30:43 +0630] "POST /FirstTesting/submitResume HTTP/1.1" 500 1883

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Student's Registration Form</title>
+	</head>
+	<body>
+		<h1>Student's Registration Form</h1>
+		<form action="Student" method="post">
+			Student name :
+			<input type="text" name="studentName" ><br>
+			
+			Student Roll No :
+			<input type="text" name="studentRollNo" ><br>
+			
+			Major :
+			<select name="major">
+				<option>Architecture
+				<option>Civil
+				<option>Electronic Communication
+				<option>Biotech
+				<option>Electrical Power
+				<option selected>CEIT
+				<option>Mechatronic
+				<option>Mechanical
+				<option>Mining
+				<option>Chemical
+			</select><br>
+			
+			Year :
+			<input type="text" name="year" ><br>
+			
+			Father Name :
+			<input type="text" name="fatherName" ><br>
+			
+			NRC No :
+			<input type="text" name="nrcNo" ><br>
+			
+			Address :
+			<input type="text" name="address" ><br>
+			
+			Gender :
+			<input type="radio" name="gender" value="Male">Male
+			<input type="radio" name="gender" value="Female">Female<br>
+			
+			Birthday :
+			<input type="text" name="birthday" ><br>
+			
+			English Proficiency Skill :
+			<input type="radio" name="skill" value="Basic">Basic
+			<input type="radio" name="skill" value="Intermediate">Intermediate
+			<input type="radio" name="skill" value="Advanced">Advanced<br>
+			
+			Others :
+			<br><textarea name="textAreas" rows="5" cols="30"></textarea><br>
+			
+			<center>
+				<input type="submit" name="preview" value="Preview">
+				<input type="submit" name="register" value="Register">
+			</center>
+		</form>
+	</body>
+</html>

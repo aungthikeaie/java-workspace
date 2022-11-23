@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;HH&apos; to &apos;_8_puzzle_in_various_search&apos;&#x0D;&#x0A;- Original project: &apos;AIAssignment&apos;&#x0D;&#x0A;- Original element: &apos;AIAssignment/src/HH&apos;&#x0D;&#x0A;- Renamed element: &apos;AIAssignment/src/_8_puzzle_in_various_search&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;HH&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;HH" name="_8_puzzle_in_various_search" qualified="false" references="true" stamp="1579624538293" textual="false" version="1.0"/>
+</session>
